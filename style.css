@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar .container{
+    max-width: 1366px;
+    padding: 0 4rem;
+    margin: auto;
+}
+a:visited,
+a:link{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+body,html{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+/*font-family: 'Poppins', sans-serif;*/
+    
+}
+/* navbar style*/
+.navbar{
+    background-image: url("./2019-12-23_16_13_14DSC_1991.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+  background-position: center center;
+  background-size: cover;
+
+}
+.navbar .container nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0 0 0;
+    position: relative;
+}
+.navbar .container nav .logo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    white-space: nowrap; 
+    background-color: aliceblue;
+    position: absolute;
+    top: 20%;
+    left: 38.53453%;   
+    text-transform: uppercase;
+}
+.navbar .container nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .container nav ul li{
+    padding-right: 2rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* form*//*style="display: flex; flex-direction: column;"*/
+.navbar .container {
+    text-align: center;
+}
+.navbar .container .form-data form{
+    display: flex; 
+    flex-direction: column;
+    padding: 1rem;
+}
+.navbar .container .form-data form input,
+.navbar .container .form-data form textarea
+{
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0.25rem 0;
+}
+.navbar .container .form-data form button{
+    width: 50%;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0.25rem 0;
+}
+.navbar .container .form-data form .btn-div{
+    display: flex;
+}
